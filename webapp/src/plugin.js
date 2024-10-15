@@ -19,7 +19,7 @@ export default class VoicePlugin {
             },
             <FormattedMessage
                 id='plugin.upload'
-                defaultMessage='Voice message'
+                defaultMessage='语音消息'
             />,
         );
         registry.registerPostTypeComponent('custom_voice', PostType);

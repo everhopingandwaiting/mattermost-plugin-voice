@@ -18,13 +18,15 @@ const manifestStr = `
   "description": "Mattermost plugin to enable voice messaging.",
   "homepage_url": "https://github.com/streamer45/mattermost-plugin-voice",
   "support_url": "https://github.com/streamer45/mattermost-plugin-voice/issues",
-  "release_notes_url": "https://github.com/streamer45/mattermost-plugin-voicereleases/tag/v0.3.0",
-  "version": "0.3.0",
+  "release_notes_url": "https://github.com/streamer45/mattermost-plugin-voicereleases/tag/",
+  "version": "+421c4ec",
   "min_server_version": "6.3.0",
   "server": {
     "executables": {
       "darwin-amd64": "server/dist/plugin-darwin-amd64",
+      "darwin-arm64": "server/dist/plugin-darwin-arm64",
       "linux-amd64": "server/dist/plugin-linux-amd64",
+      "linux-arm64": "server/dist/plugin-linux-arm64",
       "windows-amd64": "server/dist/plugin-windows-amd64.exe"
     },
     "executable": ""

@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
+    "babel-eslint": "^7.2.3",
     "@babel/plugin-proposal-class-properties": "7.16.0",
     "@babel/plugin-proposal-object-rest-spread": "7.16.0",
     "@babel/plugin-proposal-optional-chaining": "7.14.5",
@@ -28,7 +29,6 @@
     "@types/shallow-equals": "1.0.0",
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
-    "babel-eslint": "10.1.0",
     "babel-loader": "8.2.3",
     "babel-plugin-formatjs": "10.3.7",
     "babel-plugin-typescript-to-proptypes": "2.0.0",

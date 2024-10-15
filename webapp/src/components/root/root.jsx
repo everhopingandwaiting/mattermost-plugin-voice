@@ -59,12 +59,12 @@ export default class Root extends React.Component {
                         className='voice-recording-button'
                         onClick={this.props.cancel}
                         style={style.button}
-                    >{'Cancel'}</button>
+                    >{'取消'}</button>
                     <button
                         className='voice-recording-button'
                         onClick={this.send}
                         style={style.button}
-                    >{'Send'}</button>
+                    >{'发送'}</button>
                 </div>
             </div>
         );
